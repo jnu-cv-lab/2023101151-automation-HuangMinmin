@@ -68,4 +68,3 @@ cd cv-course/lab01/src
 python lab01.py
 ## 7.实验程序及结果在3月22日提交至另一仓库其链接如下
 ### https://github.com/jnu-cv-lab/2023101151-automation-HuangMinmin-lab01
-
