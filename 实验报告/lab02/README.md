@@ -79,6 +79,8 @@ cout << "✅ 裁剪图已保存" << endl;
 ## 文件说明
 - test.jpg： Opencv读取图片
 - clab01.cpp:  源代码
+- output/：输出结果文件夹
+- output.png:像素输出结果
 - originalshow.png: 原图显示图片
 - grayshow.png:灰度显示图片
 - gray_output.jpg：灰度图像保存图片
