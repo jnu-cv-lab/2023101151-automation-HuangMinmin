@@ -46,6 +46,8 @@ lab03.py                           # 源文件
 test2.png                          # 测试图片
 实验3实验分析与说明.docx             # 实验结果分析
 output/
+├──image1                          #DCT低频能量占比输出结果
+├──image                           # MSE、PSNR输出结果
 ├── original/
 │   └── original_gray.png          # 原始灰度图像
 ├── downsampled/
