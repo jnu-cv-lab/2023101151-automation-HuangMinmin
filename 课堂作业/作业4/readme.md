@@ -15,9 +15,9 @@
 
 2. 空域梯度法（课程要求）
 不使用傅里叶变换，直接通过空域梯度计算等效频率：
-$$
-f_{rms} = \sqrt{\frac{\text{mean}(g_x^2 + g_y^2)}{4\pi^2 \cdot \text{Var}(I)}}
-$$​其中：
+![alt text](image-1.png)
+
+其中：
 gx,gy 为 Sobel 水平 / 垂直梯度
 
 var(img) 为图像分块方差
