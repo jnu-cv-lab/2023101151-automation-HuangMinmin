@@ -10,15 +10,17 @@
 ## 三、文件结构
 ```
 .
-├── main.py                # 实验完整运行代码
+├── lab06.py                # 实验完整运行代码
 ├── box.png                # 模板目标图像
 ├── box_in_scene.png       # 复杂场景待匹配图像
 ├── experiment6_output/    # 实验全部输出结果文件夹
 │   ├── nfeatures_500/     # ORB nfeatures=500 实验结果
 │   ├── nfeatures_1000/   # ORB nfeatures=1000 实验结果
 │   ├── nfeatures_2000/   # ORB nfeatures=2000 实验结果
+│   ├── task6.png          #任务6表格输出结果
 │   └── sift/              # SIFT 算法实验结果
-└── README.md              # 实验说明文档
+├── 实验6.docx             #实验问题解答报告
+└── read.md              # 实验说明文档
 ```
 
 ## 四、实验功能说明
@@ -61,4 +63,3 @@ pip install opencv-python numpy
 ## 八、实验总结
 本次实验完成了 ORB 特征参数对照实验与 ORB/SIFT 算法对比实验，完整实现了特征提取、特征匹配、误匹配剔除、单应矩阵求解、透视变换目标定位全流程。
 实验验证了特征点数量需合理取舍，过多冗余特征会降低匹配质量；同时理解了二进制特征与传统浮点特征的优劣差异，为后续图像拼接、目标识别、视觉匹配等应用奠定基础。
-
