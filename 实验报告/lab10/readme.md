@@ -7,6 +7,7 @@
 .
 ├── lab10.py          # 全部实验代码，包含PE、二维旋转、高维RoPE、对比实验、相对位置验证
 ├── lab10_output.pgn  #输出结果
+├── 2023101151_黄敏敏_ML_CV_Assignment  #实验报告
 └── README.md        # 项目说明文档
 ```
 
